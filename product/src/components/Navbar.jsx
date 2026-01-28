@@ -8,7 +8,7 @@ function Navbar() {
       </NavLink>
 
       <NavLink to="/products" className="nav-link">
-        Products
+        Collection
       </NavLink>
     </nav>
   );

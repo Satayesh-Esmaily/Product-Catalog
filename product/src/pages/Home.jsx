@@ -5,31 +5,39 @@ function Home() {
     <div className="container">
       {/* Hero Section */}
       <section className="hero">
-        <h1>Welcome to Our Digital Studio</h1>
+        <h1>EMBER</h1>
         <p>
-          We create modern, minimal, and high-impact digital products
-          with a focus on clarity, performance, and timeless design.
+          Crafted coffee & chocolate experiences —  
+          rich flavors, warm moments, and timeless taste.
         </p>
 
         <Link className="btn" to="/products">
-          Browse Products →
+          Explore Our Collection →
         </Link>
       </section>
 
-      {/* Optional Features Section */}
-      <section className="features" style={{ marginTop: "80px" }}>
+      {/* Features / Categories */}
+      <section className="features" style={{ marginTop: "100px" }}>
         <div className="products-grid">
           <div className="product-card">
-            <h3>Web Design</h3>
-            <p>Pixel-perfect designs that scale across all devices.</p>
+            <h3>Artisan Coffee</h3>
+            <p>
+              Carefully roasted beans with deep aroma and balanced flavor.
+            </p>
           </div>
+
           <div className="product-card">
-            <h3>Mobile Apps</h3>
-            <p>Seamless and fast experiences for iOS and Android.</p>
+            <h3>Premium Chocolate</h3>
+            <p>
+              Handcrafted chocolate made from the finest cocoa.
+            </p>
           </div>
+
           <div className="product-card">
-            <h3>Product Strategy</h3>
-            <p>Solutions focused on users, growth, and engagement.</p>
+            <h3>Warm Moments</h3>
+            <p>
+              Simple pleasures designed for calm and comfort.
+            </p>
           </div>
         </div>
       </section>
