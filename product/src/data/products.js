@@ -5,172 +5,214 @@ const products = [
     name: "Ember Dark Roast",
     price: 18,
     category: "Coffee",
-    image: "/images/coffee/dark-roast.jpg",
-    description: "Deep, bold coffee with smoky notes."
+    description: "Deep, bold coffee with smoky notes.",
+    origin: "Colombia",
+    intensity: "Strong",
+    weight: "250g"
   },
   {
     id: "c2",
     name: "Amber Medium Roast",
     price: 16,
     category: "Coffee",
-    image: "/images/coffee/medium-roast.jpg",
-    description: "Balanced flavor with caramel undertones."
+    description: "Balanced flavor with caramel undertones.",
+    origin: "Brazil",
+    intensity: "Medium",
+    weight: "250g"
   },
   {
     id: "c3",
     name: "Golden Light Roast",
     price: 15,
     category: "Coffee",
-    image: "/images/coffee/light-roast.jpg",
-    description: "Bright acidity with fruity aroma."
+    description: "Bright acidity with fruity aroma.",
+    origin: "Ethiopia",
+    intensity: "Light",
+    weight: "250g"
   },
   {
     id: "c4",
     name: "Espresso Ember",
     price: 19,
     category: "Coffee",
-    image: "/images/coffee/espresso.jpg",
-    description: "Intense espresso blend for strong lovers."
+    description: "Intense espresso blend for strong lovers.",
+    origin: "Italy",
+    intensity: "Very Strong",
+    weight: "250g"
   },
   {
     id: "c5",
     name: "Mocha Blend",
     price: 17,
     category: "Coffee",
-    image: "/images/coffee/mocha.jpg",
-    description: "Coffee with natural chocolate notes."
+    description: "Coffee with natural chocolate notes.",
+    origin: "Peru",
+    intensity: "Medium",
+    weight: "250g"
   },
   {
     id: "c6",
     name: "Vanilla Brew",
     price: 16,
     category: "Coffee",
-    image: "/images/coffee/vanilla.jpg",
-    description: "Smooth coffee with vanilla aroma."
+    description: "Smooth coffee with vanilla aroma.",
+    origin: "Mexico",
+    intensity: "Light",
+    weight: "250g"
   },
   {
     id: "c7",
     name: "Cold Brew Ember",
     price: 14,
     category: "Coffee",
-    image: "/images/coffee/cold-brew.jpg",
-    description: "Slow-brewed, refreshing and smooth."
+    description: "Slow-brewed, refreshing and smooth.",
+    origin: "Kenya",
+    intensity: "Medium",
+    weight: "300ml"
   },
 
-  /*  Chocolate (7) */
+  /* Chocolate (7) */
   {
     id: "ch1",
     name: "Dark Chocolate 70%",
     price: 9,
     category: "Chocolate",
-    image: "/images/chocolate/dark70.jpg",
-    description: "Rich dark chocolate with deep cocoa flavor."
+    description: "Rich dark chocolate with deep cocoa flavor.",
+    origin: "Belgium",
+    intensity: "Bitter",
+    weight: "100g"
   },
   {
     id: "ch2",
     name: "Milk Chocolate Classic",
     price: 8,
     category: "Chocolate",
-    image: "/images/chocolate/milk.jpg",
-    description: "Smooth and creamy milk chocolate."
+    description: "Smooth and creamy milk chocolate.",
+    origin: "Switzerland",
+    intensity: "Sweet",
+    weight: "100g"
   },
   {
     id: "ch3",
     name: "Hazelnut Chocolate",
     price: 10,
     category: "Chocolate",
-    image: "/images/chocolate/hazelnut.jpg",
-    description: "Chocolate blended with roasted hazelnuts."
+    description: "Chocolate blended with roasted hazelnuts.",
+    origin: "Italy",
+    intensity: "Medium Sweet",
+    weight: "100g"
   },
   {
     id: "ch4",
     name: "Almond Crunch",
     price: 10,
     category: "Chocolate",
-    image: "/images/chocolate/almond.jpg",
-    description: "Crunchy almonds inside premium chocolate."
+    description: "Crunchy almonds inside premium chocolate.",
+    origin: "France",
+    intensity: "Medium",
+    weight: "100g"
   },
   {
     id: "ch5",
     name: "White Chocolate",
     price: 8,
     category: "Chocolate",
-    image: "/images/chocolate/white.jpg",
-    description: "Sweet and creamy white chocolate."
+    description: "Sweet and creamy white chocolate.",
+    origin: "Germany",
+    intensity: "Sweet",
+    weight: "100g"
   },
   {
     id: "ch6",
     name: "Cocoa Ember Bar",
     price: 11,
     category: "Chocolate",
-    image: "/images/chocolate/ember-bar.jpg",
-    description: "Signature EMBER cocoa bar."
+    description: "Signature EMBER cocoa bar.",
+    origin: "Belgium",
+    intensity: "Rich",
+    weight: "120g"
   },
   {
     id: "ch7",
     name: "Spiced Chocolate",
     price: 10,
     category: "Chocolate",
-    image: "/images/chocolate/spiced.jpg",
-    description: "Chocolate with warm spices."
+    description: "Chocolate with warm spices.",
+    origin: "Spain",
+    intensity: "Warm",
+    weight: "100g"
   },
 
-  /*  Warm Moments (7) */
+  /* Warm Moments (7) */
   {
     id: "w1",
     name: "Coffee Scent Candle",
     price: 14,
     category: "Warm Moments",
-    image: "/images/warm/candle-coffee.jpg",
-    description: "Warm coffee aroma candle."
+    description: "Warm coffee aroma candle.",
+    origin: "Handmade",
+    intensity: "Soft",
+    weight: "200g"
   },
   {
     id: "w2",
     name: "Chocolate Scent Candle",
     price: 14,
     category: "Warm Moments",
-    image: "/images/warm/candle-chocolate.jpg",
-    description: "Sweet chocolate scented candle."
+    description: "Sweet chocolate scented candle.",
+    origin: "Handmade",
+    intensity: "Soft",
+    weight: "200g"
   },
   {
     id: "w3",
     name: "Ceramic Coffee Mug",
     price: 12,
     category: "Warm Moments",
-    image: "/images/warm/mug.jpg",
-    description: "Minimal ceramic mug for daily coffee."
+    description: "Minimal ceramic mug for daily coffee.",
+    origin: "Local Studio",
+    intensity: "—",
+    weight: "350ml"
   },
   {
     id: "w4",
     name: "Ember Gift Box",
     price: 25,
     category: "Warm Moments",
-    image: "/images/warm/gift-box.jpg",
-    description: "Coffee & chocolate gift set."
+    description: "Coffee & chocolate gift set.",
+    origin: "EMBER Collection",
+    intensity: "—",
+    weight: "Bundle"
   },
   {
     id: "w5",
     name: "Wooden Coffee Tray",
     price: 20,
     category: "Warm Moments",
-    image: "/images/warm/tray.jpg",
-    description: "Rustic wooden tray."
+    description: "Rustic wooden tray.",
+    origin: "Handcrafted",
+    intensity: "—",
+    weight: "—"
   },
   {
     id: "w6",
     name: "Minimal Teaspoon Set",
     price: 9,
     category: "Warm Moments",
-    image: "/images/warm/spoon.jpg",
-    description: "Minimal metal spoon set."
+    description: "Minimal metal spoon set.",
+    origin: "Japan",
+    intensity: "—",
+    weight: "6 pcs"
   },
   {
     id: "w7",
     name: "Ember Notebook",
     price: 7,
     category: "Warm Moments",
-    image: "/images/warm/notebook.jpg",
-    description: "Warm-toned notebook for calm moments."
+    description: "Warm-toned notebook for calm moments.",
+    origin: "EMBER Design",
+    intensity: "—",
+    weight: "A5"
   }
 ];
 

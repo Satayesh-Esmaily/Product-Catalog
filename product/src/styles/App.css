@@ -786,3 +786,27 @@ p {
   border-radius: 16px;
   margin-bottom: 20px;
 }
+.details {
+  max-width: 600px;
+  margin: 80px auto;
+  padding: 40px;
+}
+
+.details-title {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.details-category {
+  opacity: 0.7;
+  margin-bottom: 20px;
+}
+
+.details-description {
+  margin-bottom: 30px;
+  line-height: 1.6;
+}
+
+.details-info p {
+  margin: 8px 0;
+}
