@@ -37,6 +37,7 @@
       and open the localhost on your browser
 
   🖼 Screenshots
+  
 <img width="1920" height="1013" alt="image" src="https://github.com/user-attachments/assets/d6abb4b3-16a9-4c50-b243-9103bb3f6567" />
 <img width="1920" height="1019" alt="image" src="https://github.com/user-attachments/assets/c2cddace-f302-498e-bc0a-c351bd8ab772" />
 <img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/8f569fba-3ee9-4bf3-8c02-a0e497833cfe" />
