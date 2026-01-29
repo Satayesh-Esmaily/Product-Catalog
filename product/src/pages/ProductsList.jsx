@@ -1,21 +1,30 @@
-import { Link } from "react-router-dom";
+import { useState } from "react";
 import products from "../data/products";
+import FilterBar from "../components/FilterBar";
+import ProductCard from "../components/ProductCard";
 
 function ProductsList() {
-  return (
-    <div className="products-grid">
-      {products.map((product) => (
-        <div key={product.id} className="product-card">
-          <h3>{product.name}</h3>
-          <span>
-            {product.category} — ${product.price}
-          </span>
+  const [activeCategory, setActiveCategory] = useState("All");
+  const categories = ["All", "Coffee", "Chocolate", "Warm Moments"];
 
-          <Link className="btn" to={`/products/${product.id}`}>
-            View Product
-          </Link>
-        </div>
-      ))}
+  const filteredProducts =
+    activeCategory === "All"
+      ? products
+      : products.filter((product) => product.category === activeCategory);
+
+  return (
+    <div className="container">
+      <FilterBar
+        categories={categories}
+        activeCategory={activeCategory}
+        onChange={setActiveCategory}
+      />
+
+      <div className="products-grid">
+        {filteredProducts.map((product) => (
+          <ProductCard key={product.id} product={product} />
+        ))}
+      </div>
     </div>
   );
 }

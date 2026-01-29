@@ -1,5 +1,5 @@
 const products = [
-  /* ☕ Coffee (7) */
+  /* Coffee (7) */
   {
     id: "c1",
     name: "Ember Dark Roast",
@@ -57,7 +57,7 @@ const products = [
     description: "Slow-brewed, refreshing and smooth."
   },
 
-  /* 🍫 Chocolate (7) */
+  /*  Chocolate (7) */
   {
     id: "ch1",
     name: "Dark Chocolate 70%",
@@ -115,7 +115,7 @@ const products = [
     description: "Chocolate with warm spices."
   },
 
-  /* 🕯 Warm Moments (7) */
+  /*  Warm Moments (7) */
   {
     id: "w1",
     name: "Coffee Scent Candle",
